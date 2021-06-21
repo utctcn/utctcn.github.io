@@ -1,0 +1,38 @@
+.box {
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	flex: 0 1 auto;
+}
+
+.box .home-splash {
+	flex: 1 1 auto;
+}
+
+.home-splash {
+	background-image: url(../images/home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-slogan {
+    padding: 10px;
+    font: 500 3em 'Dosis', 'Tahoma', sans-serif;
+    line-height: 1em;
+    color: #f27347;
+    background-color: rgb(255 255 255 / 80%);
+    text-shadow: 0 0px 5px #f5b0dc;
+    margin: 0 auto;
+    border-radius: 10px 0;
+    box-shadow: 0 0 20px 10px rgb(218 129 187 / 33%);
+    border: solid 1px white;
+}
+
+.navbar {
+	box-shadow: 0px 0px 5px 5px white;
+}
