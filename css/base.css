@@ -39,17 +39,22 @@ h3 {
 }
 
 
-.logo{
-	height: 100px;
-	margin: 14px 50px 14px 10px;
+#logo{
+	height: 80%;
+	margin-right: 100px;
+}
+
+#logo img{
+	height: 100%;
 }
 
 .navbar {
 	z-index: 1;
-	overflow: hidden;
-	font-family: 'Dosis', 'Tahoma', sans-serif;
-	box-shadow: 0px -20px 20px 10px #aaa;
-	display: flex;
+    height: 15%;
+    min-height: 100px;
+    font-family: 'Dosis', 'Tahoma', sans-serif;
+    box-shadow: 0px -20px 20px 10px #aaa;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -67,10 +72,9 @@ h3 {
     color: #f27347;
     border: none;
     outline: none;
-    padding: 8px 16px;
+    margin: 0px 16px;
     background-color: inherit;
     font-family: inherit;
-    margin: 0;
     font-weight: 500;
 }
 
