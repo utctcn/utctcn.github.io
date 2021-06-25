@@ -1,5 +1,5 @@
 .research-card {
-  border-bottom: dashed 1px #ddd;
+  #border-bottom: dashed 1px #ddd;
   padding: 20px 0;
 }
 
@@ -25,7 +25,7 @@ input +.research-drop +  div
   display: none;
   border: solid 4px #eee;
   padding: 15px;
-  border-radius: 0 10px 10px 10px;
+  border-radius: 0 30px;
   box-shadow: 0px 0px 10px 1px #eee;
 }
 
