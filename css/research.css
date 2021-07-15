@@ -8,8 +8,13 @@
   font-size: 1.3em;
   border-radius: 5px 5px 0 0px;
   color: #f27347;
+  transition: color 0.5s;
   background-color: #eee;
   padding: 3px;
+}
+
+.research-drop:hover {
+  color:  black;
 }
 
 input[type="checkbox"]  {

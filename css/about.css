@@ -1,0 +1,14 @@
+.about-photo {
+    box-shadow: 0px 0px 5px 1px #bbb;
+    border-radius: 5px;
+    margin: 20px 5px 0 5px;
+}
+
+.building-photo {
+    height: 200px;
+}
+
+#austin-photo {
+    width: 100%;
+    margin: 20px 0 0 0;
+}
