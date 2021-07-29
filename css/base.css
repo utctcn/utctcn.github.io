@@ -139,8 +139,12 @@ h3 {
 	box-shadow: 0px 0px 5px 1px #bbb;
 }
 
-.research-photo, .tool-photo {
+.research-photo {
 	width: 20%;
+}
+
+.tool-photo {
+	width: 15%;
 }
 
 .people-photo {
