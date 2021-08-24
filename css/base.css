@@ -232,7 +232,7 @@ h3 {
 @media only screen and (max-device-width: 700px) {
 
 body {
-	font-size:  1em;
+	font-size:  2em;
 }
 
 .navbar {
@@ -277,7 +277,10 @@ body {
 
 .people-card, .research-card, .tool-card {
     flex-direction: column;
-    align-items: center;
+}
+
+.people-card {
+	align-items: center;
 }
 
 .people-photo, .research-photo, .tool-photo {
