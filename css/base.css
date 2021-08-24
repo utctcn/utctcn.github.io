@@ -309,6 +309,7 @@ body {
 
 .people-card, .tool-card {
     padding: 3em 0;
+    border-top: dashed .4em #ddd;
 }
 
 }
