@@ -1,5 +1,4 @@
 .research-card {
-  #border-bottom: dashed 1px #ddd;
   padding: 20px 0;
 }
 
@@ -44,4 +43,12 @@ input +.research-drop +  div
 
 input:checked + .research-drop + div{
   display: block;
+}
+
+
+@media only screen and (max-device-width: 700px) {
+
+.research-card {
+    padding: 5em 0 0 0;
+}
 }
