@@ -70,6 +70,11 @@ h3 {
     text-decoration: none;
 }
 
+#menu {
+	display: flex;
+    align-items: center;
+}
+
 .dropdown .dropbtn {
 	font-size: 25px;
     color: #f27347;
@@ -192,7 +197,7 @@ h3 {
 }
 
 .research-photo, .tool-photo {
-	border-radius: 5px;
+	border-radius: 0 15px;
 }
 
 .research-desc{
@@ -250,6 +255,11 @@ body {
 	width:  90%;
 	margin-right: 0;
 	margin-bottom:  20px;
+}
+
+#menu {
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .dropdown .dropbtn {
