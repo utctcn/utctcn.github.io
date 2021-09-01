@@ -197,7 +197,7 @@ h3 {
 }
 
 .research-photo, .tool-photo {
-	border-radius: 0 15px;
+	border-radius: 0 10px;
 }
 
 .research-desc{
@@ -272,7 +272,7 @@ h3 {
 	margin:  20px;
 	text-align: left;
 	font-size: 2em;
-	line-height: 2.5em;
+	line-height: 2em;
 }
 
 .page-title {
