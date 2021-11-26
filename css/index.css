@@ -10,10 +10,6 @@
 }
 
 .home-splash {
-	#background-image: url(../images/home.png);
-    #background-position: center;
-    #background-repeat: no-repeat;
-    #background-size: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +35,6 @@
     margin: 0 auto;
     border-radius: 20px 0;
     box-shadow: 0px 0px 50px 50px rgb(255 255 255 / 50%);
-    #border: solid 1px white;
 }
 
 .navbar {
@@ -53,12 +48,25 @@
 
 @media only screen and (max-device-width: 700px) {
 
-.home-slogan {
-    font-size: 6em;
+#bg_video {
+    display: none;
 }
 
+.navbar {
+    box-shadow: 0px -20px 20px 10px rgb(218 129 187);
+}
+
+
 .home-splash {
+    background-image: url(../images/home.png);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: 250%;
 }
 
+.home-slogan {
+    background-color: rgb(255 255 255 / 80%);
+    box-shadow: 0 0 20px 10px rgb(218 129 187 / 33%);
+    border: solid 1px white;
+    font-size: 6em;
 }
