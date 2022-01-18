@@ -32,10 +32,10 @@
 .people-info .tab {
   order: 1;
   display: none;
-  border: solid 2px #f2d6fd;
+  border: solid 1px #f2d6fd;
   padding: 15px;
   border-radius: 0 20px;
-  box-shadow: 0px 0px 5px 0px #f2d6fd;
+  #box-shadow: 0px 0px 5px 0px #f2d6fd;
 }
 
 .people-info input[type='radio']:checked + label + .tab {
