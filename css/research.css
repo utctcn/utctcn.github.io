@@ -32,6 +32,7 @@
 .people-info .tab {
   order: 1;
   display: none;
+  width: 100%;
   border: solid 1px #f2d6fd;
   padding: 15px;
   border-radius: 0 20px;
