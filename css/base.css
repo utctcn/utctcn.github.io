@@ -129,11 +129,11 @@ h3 {
 	display: flex;
     flex-direction: row;
     align-items: flex-start;
+    padding: 1em 0;
 }
 
-.people-card, .tool-card {
-	border-top: dashed 1px #ddd;
-	padding: 1em 0;
+.people-card:not(:last-child), .research-card:not(:last-child), .tool-card:not(:last-child) {
+	border-bottom: dashed 1px #ddd;
 }
 
 
@@ -162,7 +162,7 @@ h3 {
 .people-dept,
 .people-link,
 .research-name,
-.research-drop,
+.people-info label,
 .tool-name,
 .tool-link{
 	font: normal 1em 'Dosis', 'Tahoma', sans-serif;
@@ -183,7 +183,7 @@ h3 {
 	font-size: 1.3em;
 }
 
-.people-desc, .tool-desc{
+.people-info, .tool-desc{
 	margin: 15px 0;
 }
 
@@ -207,10 +207,6 @@ h3 {
 
 .people-link {
 	font-size: 1.3em;
-}
-
-.tool-card {
-	border-top: dashed 1px #ddd;
 }
 
 .page-title {
