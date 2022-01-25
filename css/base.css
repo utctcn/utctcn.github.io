@@ -128,9 +128,10 @@ h3 {
 .people-card, .research-card, .tool-card {
 	display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     padding: 1em 0;
 }
+
 
 .people-card:not(:last-child), .research-card:not(:last-child), .tool-card:not(:last-child) {
 	border-bottom: dashed 1px #ddd;
