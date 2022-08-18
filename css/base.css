@@ -248,7 +248,7 @@ table {
 
 table td {
 	border: 1px solid rgb(218 129 187 / 20%);
-    padding: 7px;
+    padding: .8em;
 }
 
 @media only screen and (max-device-width: 700px) {
@@ -293,7 +293,7 @@ table td {
 }
 
 .page-title {
-	font-size: 5em;
+	font-size: 3em;
 }
 
 .page-heading {
@@ -321,7 +321,7 @@ table td {
 }
 
 .people-name, .tool-name {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .people-email {
@@ -330,6 +330,10 @@ table td {
 
 .people-dept, .people-lab, .tool-link {
     font-size: 1.7em;
+}
+
+.people-info, .tool-desc{
+	margin: 2em 0;
 }
 
 .people-card, .tool-card {

@@ -46,6 +46,14 @@
 
 @media only screen and (max-device-width: 700px) {
 
+.people-info label {
+  border-radius: 0.3em 0.3em 0 0;
+  font-size: 2em;
+  padding: 0.2em 0.4em;
+  margin-right: .5em;
+}
+
+
 .research-card {
     padding: 5em 0 0 0;
 }
