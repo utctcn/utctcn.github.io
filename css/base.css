@@ -87,17 +87,15 @@ h3 {
     font-weight: 500;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-	#background-color: red;
-}
-
 .dropdown-content {
-	display: none;
+	visibility: hidden;
+	opacity: 0;
 	position: absolute;
 	background-color: white;
 	box-shadow: 0 6px 10px 0px rgb(218 129 187 / 33%);
 	z-index: 1;
 	border-radius: 0 0 10px 10px;
+	transition:  opacity .5s, visibility .5s;
 }
 
 .dropdown-content a {
@@ -111,12 +109,12 @@ h3 {
 }
 
 .dropdown-content a:hover {
-	#background-color: white;
 	color: black;
 }
 
 .dropdown:hover .dropdown-content {
-	display: block;
+	visibility: visible;
+	opacity: 1;
 }
 
 .non-link{
