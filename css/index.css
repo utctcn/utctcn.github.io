@@ -43,7 +43,9 @@
 }
 
 .dropdown-content {
-    background-color: rgba(255,255,255,.5);
+    background-color: transparent;
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.5));
+    box-shadow: none;
 }
 
 @media only screen and (max-device-width: 700px) {
@@ -53,20 +55,26 @@
 }
 
 .navbar {
-    box-shadow: 0px -20px 20px 10px rgb(218 129 187);
+    #box-shadow: 0px -20px 20px 10px rgb(218 129 187);
 }
 
 
-.home-splash {
-    background-image: url(../images/home.png);
+body {
+    background-image: url(../images/neuron_animation.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 250%;
+    background-size: cover;
 }
 
 .home-slogan {
-    background-color: rgb(255 255 255 / 80%);
-    box-shadow: 0 0 20px 10px rgb(218 129 187 / 33%);
-    border: solid 1px white;
+    #background-color: rgb(255 255 255 / 80%);
+    #box-shadow: 0 0 20px 10px rgb(218 129 187 / 33%);
+    #border: solid 1px white;
     font-size: 6em;
+}
+
+.dropdown-content {
+    #background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,1));
+}
+
 }

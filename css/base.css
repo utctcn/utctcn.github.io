@@ -64,7 +64,7 @@ h3 {
 }
 
 .navbar a {
-    font-size: 25px;
+    font-size: 1.5em;
     font-weight: 500;
 	margin: 0 20px;
     text-decoration: none;
@@ -76,7 +76,7 @@ h3 {
 }
 
 .dropdown .dropbtn {
-	font-size: 25px;
+	font-size: 1.5em;
     color: #f27347;
     border: none;
     outline: none;
@@ -91,11 +91,12 @@ h3 {
 	visibility: hidden;
 	opacity: 0;
 	position: absolute;
-	background-color: white;
-	box-shadow: 0 6px 10px 0px rgb(218 129 187 / 33%);
+	#background-color: white;
+	box-shadow: 0 6px 10px -5px rgb(218 129 187 / 33%);
 	z-index: 1;
 	border-radius: 0 0 10px 10px;
 	transition:  opacity .5s, visibility .5s;
+	backdrop-filter: blur(5px);
 }
 
 .dropdown-content a {
@@ -251,6 +252,11 @@ table td {
 
 @media only screen and (max-device-width: 700px) {
 
+body {
+	font-size: 1.2em;
+	line-height: 4em;
+}
+
 .navbar {
 	flex-direction: column;
 	height:  auto;
@@ -258,14 +264,13 @@ table td {
 }
 
 .navbar a {
-	font-size: 4em;
-    line-height: 1.5em;
+	font-size: 3em;
+    #line-height: 1.5em;
 }
 
 #logo {
 	width:  90%;
-	margin-right: 0;
-	margin-bottom:  20px;
+	margin: .5em 0 1em 0;
 }
 
 #menu {
@@ -273,12 +278,20 @@ table td {
     width: 100%;
 }
 
+.dropdown {
+	line-height: 0;
+}
+
 .dropdown .dropbtn {
-	font-size: 4em;
+	font-size: 3em;
+}
+
+.dropdown-content {
+	background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,1));
 }
 
 .dropdown-content a {
-	font-size: 3em;
+	font-size: 2.5em;
     line-height: 1.5em;
 }
 
@@ -286,16 +299,18 @@ table td {
 	width:  auto;
 	margin:  20px;
 	text-align: left;
-	font-size: 2em;
-	line-height: 2em;
+	#font-size: 2em;
+	#line-height: 2em;
 }
 
 .page-title {
-	font-size: 3em;
+	font-size: 5em;
+    text-align: center;
 }
 
 .page-heading {
-    font-size: 4em;
+	font-size: 4em;
+    text-align: center;
 }
 
 .people-card, .research-card, .tool-card {
@@ -319,7 +334,12 @@ table td {
 }
 
 .people-name, .tool-name {
-    font-size: 3em;
+    font-size: 2.5em;
+}
+
+.people-name::after{
+    content: "\a";
+    white-space: pre;
 }
 
 .people-email {
@@ -327,16 +347,31 @@ table td {
 }
 
 .people-dept, .people-lab, .tool-link {
-    font-size: 1.7em;
+    #font-size: 1.7em;
+}
+
+.people-text, .tool-text {
+	text-align: center;
+	font-size: 2em;
 }
 
 .people-info, .tool-desc{
 	margin: 2em 0;
+	text-align: left;
 }
 
 .people-card, .tool-card {
     padding: 3em 0;
     border-top: dotted 5px #ddd;
 }
+
+.people-name, .tool-name {
+  font-size: 3em;
+}
+
+table {
+	font-size: 2.5em;
+}
+
 
 }
