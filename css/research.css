@@ -44,21 +44,43 @@
 }
 
 .people-info input[type='radio']:checked + label + .tab {
-    display: block;
+  display: block;
 }
 
+.ex {
+position: relative;
+    background-color: #fafafa;
+    filter: saturate(0.5);
+    margin: 10px 0;
+    padding-right: 10px;
+    border-radius: 0 40px;
+}
+
+.ex::after { 
+  content: "ex";
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  background-color: white;
+  border-right: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+  padding: 0 10px 10px 4px;
+  border-radius: 0 0 100% 0;
+  font: normal 1.2em 'Dosis', 'Tahoma', sans-serif;
+  color: #999;
+}
 
 @media only screen and (max-device-width: 700px) {
 
-.people-info label {
-  border-radius: 0.3em 0.3em 0 0;
-  #font-size: 2em;
-  padding: 0.2em 0.4em;
-  margin-right: .5em;
-}
+  .people-info label {
+    border-radius: 0.3em 0.3em 0 0;
+    #font-size: 2em;
+    padding: 0.2em 0.4em;
+    margin-right: .5em;
+  }
 
-.research-card {
-  padding: 5em 0 0 0;
-}
+  .research-card {
+    padding: 5em 0 0 0;
+  }
 
 }
