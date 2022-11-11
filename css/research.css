@@ -48,12 +48,12 @@
 }
 
 .ex {
-position: relative;
-    background-color: #fafafa;
-    filter: saturate(0.5);
-    margin: 10px 0;
-    padding-right: 10px;
-    border-radius: 0 40px;
+  position: relative;
+  background-color: #fafafa;
+  filter: saturate(0.5);
+  padding-right: 1em;
+  padding-bottom: 1em;
+  border-radius: 0 20px;
 }
 
 .ex::after { 
@@ -64,7 +64,7 @@ position: relative;
   background-color: white;
   border-right: solid 1px #ddd;
   border-bottom: solid 1px #ddd;
-  padding: 0 10px 10px 4px;
+  padding: 0 0.5em 0.5em 0.2em;
   border-radius: 0 0 100% 0;
   font: normal 1.2em 'Dosis', 'Tahoma', sans-serif;
   color: #999;
@@ -81,6 +81,11 @@ position: relative;
 
   .research-card {
     padding: 5em 0 0 0;
+  }
+
+  .ex::after { 
+    #padding: 0 10px 10px 4px;
+    font-size: 4em;
   }
 
 }

@@ -1,0 +1,13 @@
+.main {
+    text-align: left;
+}
+
+.people-card {
+display:inline-flex;	
+    align-items: center;
+    width:700px;
+}
+
+.people-photo {
+    width:20%;
+}

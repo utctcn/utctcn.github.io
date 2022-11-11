@@ -127,8 +127,8 @@ h3 {
 .people-card, .research-card, .tool-card {
 	display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 1em 0;
+    padding: 1em 0 0 0;
+    margin: 1em 0;
 }
 
 .people-card {	
@@ -139,8 +139,8 @@ h3 {
     align-items: center;
 }
 
-.people-card:not(:last-child), .research-card:not(:last-child), .tool-card:not(:last-child) {
-	border-bottom: dashed 1px #ddd;
+.research-card:not(:last-child), .tool-card:not(:last-child) {
+	#border-bottom: dashed 1px #ddd;
 }
 
 .people-photo, .research-photo, .tool-photo {
@@ -190,7 +190,7 @@ h3 {
 }
 
 .people-info, .tool-desc{
-	margin: 15px 0;
+	margin: 15px 0 0 0;
 }
 
 .research-card {
