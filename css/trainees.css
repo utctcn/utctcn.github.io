@@ -4,11 +4,32 @@
 }
 
 .people-card {
-display:inline-flex;	
+    display:inline-flex;	
     align-items: center;
     width:700px;
 }
 
 .people-photo {
     width:20%;
+}
+
+@media only screen and (max-device-width: 700px) {
+
+    .main {
+        width:  auto;
+        text-align: center;
+    }
+
+    .people-card {
+        width: auto;
+    }
+
+    .people-photo {
+        width: 50%;
+    }
+
+    .people-info{
+    text-align: center;
+}
+
 }

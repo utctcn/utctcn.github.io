@@ -298,9 +298,7 @@ body {
 .main {
 	width:  auto;
 	margin:  20px;
-	text-align: left;
-	#font-size: 2em;
-	#line-height: 2em;
+	text-align: center;
 }
 
 .page-title {
@@ -366,7 +364,7 @@ body {
 }
 
 .people-name, .tool-name {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 table {
