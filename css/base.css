@@ -170,9 +170,17 @@ h3 {
 .research-name,
 .people-info label,
 .tool-name,
-.tool-link{
+.tool-link,
+.tool-by{
 	font: normal 1em 'Dosis', 'Tahoma', sans-serif;
 	text-align: left;
+}
+
+.tool-by {
+	display: block;
+	font-size: 1.1em;
+	color: #777;
+	margin-bottom: 0.5em;
 }
 
 .people-name, .tool-name{
