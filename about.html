@@ -135,6 +135,20 @@
 				<h1 class="page-heading">About this website</h1>
 
 				Website designed by <a target='_blank' href="https://abhranil.space">Abhranil Das</a> (source code is on <a target='_blank' href="https://github.com/utctcn/utctcn.github.io">github</a>). For comments/questions/bug reports, or to add/update your information on the site, please e-mail abhranil@abhranil.space.
+				<br><br>
+				<span id="last-updated">Last updated on Jul 6 2026.</span>
+				<script>
+					fetch('https://api.github.com/repos/utctcn/utctcn.github.io/commits/main')
+					.then(response => response.json())
+					.then(data => {
+						if (data.commit && data.commit.committer && data.commit.committer.date) {
+							const date = new Date(data.commit.committer.date);
+							const options = { month: 'short', day: 'numeric', year: 'numeric' };
+							document.getElementById('last-updated').textContent = 'Last updated on ' + date.toLocaleDateString('en-US', options).replace(',', '') + '.';
+						}
+					})
+					.catch(e => console.error('Error fetching last update date', e));
+				</script>
 			</div>
 		</div>
 	</body>
