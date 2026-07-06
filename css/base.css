@@ -91,7 +91,7 @@ h3 {
 	visibility: hidden;
 	opacity: 0;
 	position: absolute;
-	#background-color: white;
+	background-color: rgba(255, 255, 255, 0.85);
 	box-shadow: 0 6px 10px -5px rgb(218 129 187 / 33%);
 	z-index: 1;
 	border-radius: 0 0 10px 10px;
